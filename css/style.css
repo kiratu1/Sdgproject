@@ -334,7 +334,12 @@ h6,
 .project-carousel .owl-nav {
     margin-top: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+.projects.owl-nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: left;
 }
 
 .project-carousel .owl-nav .owl-prev,
@@ -538,4 +543,15 @@ h6,
 
 .copyright a:hover {
     color: var(--primary);
+}
+/*** Donate ***/
+.donate {
+    background: #DFE4FD;
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
+.custom-what-we-do {
+    background-color: #4CAF50; /* Custom background color */
+    color: #ffffff; /* Custom text color */
 }
